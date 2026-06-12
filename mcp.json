@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "joai-challenge": {
+      "url": "https://cortex.joai.ai/mcp/apps/challenge"
+    }
+  }
+}
