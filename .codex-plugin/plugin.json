@@ -1,0 +1,38 @@
+{
+  "name": "joai-challenge",
+  "version": "0.3.0",
+  "description": "Connect Challenge to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/challenge",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "challenge"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Challenge by JoAi",
+    "shortDescription": "Connect Challenge to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Stake-backed personal challenges. Put money on the line and prove it.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/challenge",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Challenge tools available in this app.",
+      "Explain what setup or authentication Challenge needs before I run an action.",
+      "Use Challenge to help me with the task I describe next."
+    ]
+  }
+}
